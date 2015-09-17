@@ -3,5 +3,6 @@
 
     <string name="hint.name">Name</string>
     <string name="label.welcome">Welcome me!</string>
-    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_message">Message Activity</string>
+    <string name="label.welcome.msg">Welcome to Señor Android Developer...</string>
 </resources>
