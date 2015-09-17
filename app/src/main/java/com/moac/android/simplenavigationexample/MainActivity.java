@@ -26,10 +26,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = nameEditText.getText().toString();
-                // Make sure the name isn't empty
+                // Make sure the name isn't empty.
                 if (!TextUtils.isEmpty(name)) {
+                    // Launch the Message Activity to display the welcome message.
                     Log.d(TAG, "Your name is: " + name);
-                    // TODO Open new Activity to display the personalized welcome message
+                    MessageActivity.launch(MainActivity.this, name);
                 }
             }
         });
